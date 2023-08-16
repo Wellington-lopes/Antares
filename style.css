@@ -32,7 +32,7 @@ h1 {
 
 .card {
     background: rgb(49, 55, 58);
-    padding: 30px 35px;
+    padding: 55px 75px;
     border-radius: 10px;
     max-width: 50vw;
  
@@ -47,7 +47,7 @@ h1 {
     flex-direction: inline;
     align-items: center;
     justify-content: space-between;    
-    margin-bottom: 10px;     
+    margin: 15px 0;     
     
 }
 
