@@ -64,12 +64,20 @@ h1 {
     font-size: 14pt;   
     margin: 10px 3px;
     background-color: rgb(172, 165, 166);
-    color: rgb(248, 245, 232);
+    color: black;
+    font-weight: 800;
     font-size: 12pt;
+    outline: none;
+    padding: 5px;
+}
+
+input:focus{
+    border-color: rgb(166, 228, 247);
 }
 
 .textfield > input::placeholder{
     color: black;
+    font-weight: 200;
 }
 
 .btn {
