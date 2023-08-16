@@ -1,3 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Mono:wght@400;500;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    color:rgb(247, 247, 247); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: rgb(49, 55, 58);
+    padding: 30px 35px;
+    border-radius: 10px;
+    max-width: 50vw;
+ 
+}
+
+.card:hover{
+    box-shadow: 0px 10px 40px -12px #00000052;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: space-between;    
+    margin-bottom: 10px;     
+    
+}
+
+.textfield > i {
+    color:rgb(247, 247, 247); 
+    font-size: 19pt;
+    padding-left: 2px;
+     
+}
+
+.textfield > input {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 14pt;   
+    margin: 10px 3px;
+    background-color: rgb(172, 165, 166);
+    color: rgb(248, 245, 232);
+    font-size: 12pt;
+}
+
+.textfield > input::placeholder{
+    color: black;
+}
+
+.btn {
+    font-weight: 800;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(88, 81, 81);
+    box-shadow: 0px 10px 40px -12px #00000052;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+
 a {
     text-decoration: none;
 }
+
+.btn:hover{
+    transition: background 1s;
+    background: #5a4d52;
+}
+
+
+
