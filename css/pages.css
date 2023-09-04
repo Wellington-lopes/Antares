@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,800;1,9..40,100;1,9..40,800&family=Kanit:ital,wght@0,400;1,300&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'DM Sans', Helvetica, sans-serif;
+   box-sizing: content-box;
+}
+
+nav{
+    height: 100vh;
+    width: 260px;
+    width: 50vw;
+    background: rgb(28, 123, 133);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.expandir{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.expandir i{
+    font-size: 30px;
+    color: #fff;
+    height: 50px;
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.expandir .text-list{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.nav-links{
+    height: 100%;
+    padding: 30px 0 150px 0;
+    overflow: auto;
+
+}
+
+.nav-links::-webkit-scrollbar{
+    display: none;
+}
+
+li{
+    list-style: none;
+    position: relative;
+}
+
+li:hover{
+    background: #39c7d1;
+}
+
+.icon-li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li i{
+    height: 50px;
+    color: #fff;
+    min-width: 68px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+li .text-list{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+
+}
+
+li .sub-menu{
+    padding: 6px 6px 14px 80px;
+    margin-top: -10px;
+    background: rgb(4, 128, 150);
+
+    /*display: none;*/
+
+}
+
+li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+    white-space: nowrap;
+    opacity: 0.6;
+}
+
+li .sub-menu a:hover{
+    opacity: 1;
+}
+
+#conteudo{
+
+    color: #f3f3f3;
+    height: 100vh;
+    position: relative;
+    left: 200px;
+    width: calc(100%-200px);
+    background-image: linear-gradient(to bottom right, #3E708E, #64969B);
+}

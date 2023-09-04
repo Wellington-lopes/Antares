@@ -10,10 +10,13 @@
 body{
     width: 100vw;
     height: 100vh;
-    background: #f3f3f3;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: url(./Assets/background.avif);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
 }
 
 main {
@@ -23,11 +26,20 @@ main {
     
 }
 
-h1 {
+main h1 {
     color:rgb(247, 247, 247); 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 700px;
+    margin-left: 100px;
 }
 
 .card {
@@ -46,16 +58,13 @@ h1 {
     display: flex;
     flex-direction: inline;
     align-items: center;
-    justify-content: space-between;    
-    margin: 15px 0;     
-    
+    margin: 15px 0;         
 }
 
 .textfield > i {
     color:rgb(247, 247, 247); 
     font-size: 19pt;
-    padding-left: 2px;
-     
+    padding-left: 2px;     
 }
 
 .textfield > input {
