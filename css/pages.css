@@ -130,10 +130,17 @@ li .sub-menu a:hover{
 }
 
 .form-header {
-    color: white;
+    color: #006464;
 }
 
 #btn-salvar {
     background-color: #006464;
     border: none; 
+    height: 3rem;
+    width: 8rem;
 }
+
+/*.form-buttom {
+    display: flex;
+    margin-left: 16rem;
+}*/
