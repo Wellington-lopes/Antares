@@ -17,7 +17,7 @@ cepInput.addEventListener("keypress", (e) =>{
 cepInput.addEventListener("keyup", (e) =>{
     const inputValue = e.target.value;
     if (inputValue.length === 8){
-        //fazer alguma coisa - rodar a API
+       getEndereco(inputValue);
     }
 });
 
