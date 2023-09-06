@@ -3,77 +3,77 @@
     <form class="container">
 
         <div class="form-header">
-            <h2>cadastre o cliente</h2>
-            <p>preencha os campos</p>
+            <h2>Cadastre o Cliente</h2>
+            <p>Preencha os Campos</p>
 
         </div>
         <form class="form-body">
 
             <div class="row mb-3">
 
-                <div class="form-float">
+                <div class="form-floating mb-3 sm-0">
 
-                    <input type="text" class="form-controle" id="cep" placeholder="digite o seu cep" minlength="8"
+                    <input type="text" class="form-control" id="cep" placeholder="digite o seu cep" minlength="8"
                         maxlength="8" required>
-                    <label for="cep">digite o seu cep</label>
+                    <label for="cep">Digite o seu CEP</label>
 
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mb-3">
 
-                <div class="form-float col-12 col-sm-3">
+                <div class="form-floating col-12 col-sm-3 mb-3 sm-0">
 
-                    <input type="text" class="form-controle" id="rua" placeholder="Rua" required
+                    <input type="text" class="form-control" id="rua" placeholder="Rua" required
                         disabled>
                     <label for="rua">Rua</label>
 
                 </div>
             
-                <div class="form-float col-12 col-sm-3">
+                <div class="form-floating col-12 col-sm-3 mb-3 sm-0 margin-l">
 
-                    <input type="text" class="form-controle" id="numero"
+                    <input type="text" class="form-control" id="numero"
                         placeholder="digite o número sua residência" required disabled>
-                    <label for="numero">Digite o número sua residência</label>
+                    <label for="numero">Digite o Número sua Residência</label>
 
                 </div>
 
             </div>
 
-            <div class="row">
+            <div class="row mb-3">
 
-                <div class="form-float col-12 col-sm-6">
+                <div class="form-floating col-6 col-sm-3 mb-3 m-sm-0">
 
-                    <input type="text" class="form-controle" id="complemento"
+                    <input type="text" class="form-control" id="complemento"
                         placeholder="digite o complemento" required>
-                    <label for="complemento">Digite o complemento</label>
+                    <label for="complemento">Digite o Complemento</label>
 
                 </div>
 
+                <div class="form-floating col-6 col-sm-3 mb-3 sm-0 margin-l">
 
-                <div class="form-float col-12 col-sm-6">
-
-                    <input type="text" class="form-controle" id="bairro"
+                    <input type="text" class="form-control" id="bairro"
                         placeholder="digite o seu bairro" required disabled>
-                    <label for="bairro">Digite o seu bairro</label>
+                    <label for="bairro">Digite o seu Bairro</label>
 
                 </div>
+
             </div>
 
-            <div class="row">
+            <div class="row mb-3">
 
-                <div class="form-float col-12 col-sm-6">
+                <div class="form-floating col-12 col-sm-3 sm-0">
 
-                    <input type="text" class="form-controle" id="cidade"
+                    <input type="text" class="form-control" id="cidade"
                         placeholder="digite a sua cidade" required disabled>
                     <label for="cidade">Digite a sua Cidade</label>
 
                 </div>
 
 
-                <div class="form-float col-12 col-sm-6">
+                <div class="form-floating col-12 col-sm-3 sm-0">
 
-                    <select id="estado" required disabled>
+                    <select id="estado" class="form-select" required disabled>
                         <option selected>Estado</option>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>

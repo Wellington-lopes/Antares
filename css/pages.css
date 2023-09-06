@@ -10,7 +10,7 @@
 
 nav{
     height: 100vh;
-    width: 260px;
+    width: 20%;
     width: 50vw;
     background: rgb(28, 123, 133);
     position: fixed;
@@ -114,12 +114,15 @@ li .sub-menu a:hover{
     opacity: 1;
 }
 
-#conteudo{
-
+#conteudo {
     color: #f3f3f3;
     height: 100vh;
     position: relative;
     left: 200px;
     width: calc(100%-200px);
     background-image: linear-gradient(to bottom right, #3E708E, #64969B);
+}
+
+.margin-l{
+   margin-left: 25px;
 }
