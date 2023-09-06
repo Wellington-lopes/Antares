@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,800;1,9..40,100;1,9..40,800&family=Kanit:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: 'DM Sans', Helvetica, sans-serif;
-   box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
 }
 
 nav{
+       
     height: 100vh;
-    width: 20%;
+    width: 260px;
     width: 50vw;
-    background: rgb(28, 123, 133);
+    background: #006464;
     position: fixed;
     top: 0;
     left: 0;
@@ -34,19 +34,21 @@ nav{
     text-align: center;
     line-height: 50px;
     cursor: pointer;
+
 }
 
 .expandir .text-list{
+  
     font-size: 22px;
     color: #fff;
     font-weight: 700;
 }
 
 .nav-links{
+    
     height: 100%;
     padding: 30px 0 150px 0;
     overflow: auto;
-
 }
 
 .nav-links::-webkit-scrollbar{
@@ -54,29 +56,31 @@ nav{
 }
 
 li{
+   
     list-style: none;
     position: relative;
+
 }
 
 li:hover{
-    background: #39c7d1;
+    background: #23b872;
 }
 
 .icon-li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 li i{
     height: 50px;
     color: #fff;
-    min-width: 68px;
+    min-width: 78px;
     text-align: center;
     line-height: 50px;
     font-size: 20px;
     cursor: pointer;
+
 }
 
 li a{
@@ -85,7 +89,6 @@ li a{
     text-decoration: none;
 
 }
-
 li .text-list{
     font-size: 18px;
     color: #fff;
@@ -96,26 +99,28 @@ li .text-list{
 li .sub-menu{
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
-    background: rgb(4, 128, 150);
-
+    background: #006464;
+    
     /*display: none;*/
-
+    
 }
 
 li .sub-menu a{
+
     color: #fff;
     font-size: 15px;
     padding: 5px 0;
     white-space: nowrap;
     opacity: 0.6;
+
 }
 
 li .sub-menu a:hover{
     opacity: 1;
 }
 
-#conteudo {
-    color: #f3f3f3;
+#conteudo{
+    background: #f3f3f3;
     height: 100vh;
     position: relative;
     left: 200px;
@@ -123,6 +128,9 @@ li .sub-menu a:hover{
     background-image: linear-gradient(to bottom right, #3E708E, #64969B);
 }
 
-.margin-l{
-   margin-left: 25px;
+.form-floating label {
+    left: 8px;
 }
+
+
+
