@@ -38,7 +38,8 @@ main h1 {
     align-items: center;
     max-width: 40rem;
     height: 40rem;
-    margin-left: 100px;
+    margin-left: 8rem;
+    border-radius: 20px;
 }
 
 .card {
@@ -115,7 +116,5 @@ a {
     background: #3243b4;
 }
 
-.container img {
-    border-radius: 20px;
-} 
+
 
