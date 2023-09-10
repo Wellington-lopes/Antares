@@ -115,5 +115,7 @@ a {
     background: #3243b4;
 }
 
-
+.container img {
+    border-radius: 20px;
+} 
 
