@@ -36,14 +36,14 @@ main h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
-    height: 700px;
+    max-width: 40rem;
+    height: 40rem;
     margin-left: 100px;
 }
 
 .card {
     background: rgb(79, 112, 129);
-    padding: 55px 75px;
+    padding: 5rem 6rem;
     border-radius: 10px;
     max-width: 50vw;
  
